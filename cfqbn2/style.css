@@ -70,3 +70,28 @@ float:left;}
     display: none;
     margin-top: 10px;
 }
+
+.btn{background-color: transparent;
+border:none;}
+
+.tdI{
+    height:200px;
+    width:10%;
+    overflow: hidden; /* Скрываем часть изображения, если оно выходит за границы ячейки */
+    position: relative; /* Для размещения картинки в ячейке */
+    border: 1px solid black; /* Этот стиль добавит рамку ячейке */
+}
+.imgI{
+    width: 100%; /* Заставляем картинку занимать всю ширину ячейки */
+    height: 100%; /* Заставляем картинку занимать всю высоту ячейки */
+    object-fit: cover; /* Обеспечиваем обрезку изображения при необходимости */
+}
+
+.tdS{height: 400px;
+width: 33%;
+text-align: center; /* Горизонтальное выравнивание по центру */
+vertical-align: middle; /* Вертикальное выравнивание по центру */
+border: 1px solid black; /* Этот стиль добавит рамку ячейке */}
+
+.imgS{max-width: 300px;
+max-height:300px}
