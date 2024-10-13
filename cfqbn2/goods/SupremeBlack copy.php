@@ -36,17 +36,18 @@
                     <img src="images/SUPREME BLACK.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/SUPREME VIOLET.png" class="d-block w-100" alt="...">
+                    <img src="images/SUPREME BLACK.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/SUPREME ORANGE.png" class="d-block w-100" alt="...">
+                    <img src="images/SUPREME BLACK.png" class="d-block w-100" alt="...">
                 </div>
             </div>
         </div>
         <div style="margin-left: 30px;">
-            <h2></br></br>Название товара</h2>
-            <h4 style="color:grey; opacity: 50%;">ID: </h4>
-            <h2>Цена</h2>
+            <h2></br></br>Supreme Black Hoodie</h2>
+            <h4 style="color:grey; opacity: 50%;">ID: <?php echo 100;?>
+            </h4>
+            <h2>300$</h2>
         </div>
         <h2>Выберите размер товара</h2>
         <select id="sizeSelect">

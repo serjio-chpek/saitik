@@ -1,0 +1,97 @@
+.aligncenter {
+    text-align: center;
+}
+.bggrey{
+    background-color:rgb(230, 229, 229);
+}
+.aleft{
+    position: relative;
+    right: 300px;
+}
+.cblack{color: black;}
+
+.cgrey{color: grey;}
+
+.active{color: grey;}
+
+.customcell{height: 10;}
+
+.tdcent{text-align: center; display: flex; justify-content: center; align-items: center;}
+.tablecent{width: 100%; margin: 0;}
+
+.bordbot{border-bottom: solid; border-width: 1px;}
+
+.mgl20{margin-left:20% !important;}
+
+.atop{text-align: top;}
+
+.slidesize{width: 600px;
+height:600px;
+margin-left: 10%;
+margin-top: 5%;
+margin-right: 40px;
+border: 10px solid gainsboro;
+float:left;}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.show {
+    display: block;
+}
+
+.cart {
+    margin-top: 20px;
+}
+
+#image {
+    display: none;
+    margin-top: 10px;
+}
+
+.btn{background-color: transparent;
+border:none;}
+
+.tdI{
+    height:200px;
+    width:10%;
+    overflow: hidden; /* Скрываем часть изображения, если оно выходит за границы ячейки */
+    position: relative; /* Для размещения картинки в ячейке */
+    border: 1px solid black; /* Этот стиль добавит рамку ячейке */
+}
+.imgI{
+    width: 100%; /* Заставляем картинку занимать всю ширину ячейки */
+    height: 100%; /* Заставляем картинку занимать всю высоту ячейки */
+    object-fit: cover; /* Обеспечиваем обрезку изображения при необходимости */
+}
+
+.tdS{height: 400px;
+width: 33%;
+text-align: center; /* Горизонтальное выравнивание по центру */
+vertical-align: middle; /* Вертикальное выравнивание по центру */
+border: 1px solid black; /* Этот стиль добавит рамку ячейке */}
+
+.imgS{max-width: 300px;
+max-height:300px}
